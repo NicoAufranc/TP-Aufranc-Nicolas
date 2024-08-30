@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Espetour</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">Espetour</div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Explora el mundo con nuestra agencia</h1>
+        <p>Ofrecemos viajes a los destinos más exóticos del mundo, asegurando una experiencia inolvidable y personalizada.</p>
+    </section>
+
+    <section class="destinos">
+        <div class="destino" onclick="window.location.href='detalle.html?destino=playa-tropical'">
+            <img src="img/saopablo.jpg" alt="Playa Tropical">
+            <div class="info">
+                <h3>Playa Tropical-Brasil</h3>
+                <p>$1,200 por persona</p>
+            </div>
+        </div>
+        <div class="destino" onclick="window.location.href='detalle.html?destino=montanas-nevadas'">
+            <img src="img/argentina.jpg" alt="Montañas Nevadas">
+            <div class="info">
+                <h3>Altas montañas-Argentina</h3>
+                <p>$1,500 por persona</p>
+            </div>
+        </div>
+        <div class="destino" onclick="window.location.href='detalle.html?destino=ciudad-europea'">
+            <img src="img/malasia.jpg" alt="Ciudad Europea">
+            <div class="info">
+                <h3>Ciudad Europea-España</h3>
+                <p>$2,000 por persona</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Viaja Con Nosotros. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
